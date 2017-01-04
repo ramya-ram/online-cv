@@ -12,7 +12,7 @@ body {
   font-family: 'Roboto', sans-serif;
   color: #545E6C;
   background: #f5f5f5;
-  font-size: 14px;
+  font-size: 16px;
   padding: 30px;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -54,8 +54,8 @@ p {
 .sidebar-wrapper {
   background: #4CAC9D;
   position: absolute;
-  right: 0;
-  width: 240px;
+  left: 0;
+  width: 265px;
   height: 100%;
   min-height: 800px;
   color: #fff;
@@ -155,7 +155,8 @@ p {
 .main-wrapper {
   background: #fff;
   padding: 60px;
-  padding-right: 300px;
+  padding-right: 60px;
+  padding-left: 320px;
 }
 .main-wrapper .section-title {
   text-transform: uppercase;
@@ -218,6 +219,20 @@ p {
 .main-wrapper .project-title {
   font-size: 16px;
   font-weight: 400;
+  margin-top: 0;
+  margin-bottom: 5px;
+}
+.main-wrapper .research-title {
+  color: #35776d;
+  font-size: 20px;
+  font-weight: 400;
+  margin-top: 0;
+  margin-bottom: 5px;
+}
+.main-wrapper .research-description {
+  font-size: 16px;
+  font-weight: 400;
+  color: #545E6C;
   margin-top: 0;
   margin-bottom: 5px;
 }
