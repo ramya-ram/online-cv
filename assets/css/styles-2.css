@@ -44,7 +44,7 @@ p {
 }
 .wrapper {
   background: #4CAC9D;
-  max-width: 960px;
+  max-width: 980px;
   margin: 0 auto;
   position: relative;
   -webkit-box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
@@ -155,7 +155,7 @@ p {
 .main-wrapper {
   background: #fff;
   padding: 60px;
-  padding-right: 60px;
+  padding-right: 40px;
   padding-left: 320px;
 }
 .main-wrapper .section-title {
@@ -225,7 +225,7 @@ p {
 .main-wrapper .research-title {
   color: #35776d;
   font-size: 20px;
-  font-weight: 400;
+  font-weight: 600;
   margin-top: 0;
   margin-bottom: 5px;
 }
@@ -314,6 +314,19 @@ used for profile image
 */
 .profile-img {
   max-width: 100px;
+  margin-bottom: 15px;
+  border: 0px solid #fff;
+  border-radius: 100%;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+}
+
+/* 
+used for research image
+*/
+.research-img {
+  float: right;
+  width: 200px;
+  height: 200px;
   margin-bottom: 15px;
   border: 0px solid #fff;
   border-radius: 100%;
