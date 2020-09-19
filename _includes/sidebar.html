@@ -28,6 +28,12 @@
                     {% else %}
                     <li class="linkedin"><i class="fa fa-linkedin"></i><a href="https://in.linkedin.com/in/sharath-kumar-87669956" target="_blank">linkedin.com/in/sharathdt</a></li>
                     {% endif %}
+
+                    {% if site.github %}
+                    <li class="github"><i class="fa fa-envelope"></i><a href="https://github.com/{{site.linkedin}}">GitHub</a></li>
+                    {% else %}
+                    <li class="github"><i class="fa fa-envelope"></i><a href="https://github.com"></a></li>
+                    {% endif %}
                     
                 </ul>
             </div><!--//contact-container-->
